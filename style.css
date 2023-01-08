@@ -1,0 +1,545 @@
+/* *{
+  font-family: "Lato", sans-serif;
+} */
+
+.topHeadingBar{
+  width: 100vw;
+    background-color: #f5d9a6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+    align-items: center;
+    z-index: 2;
+}
+#headingName{
+  color:#105652;
+  font-size: 33px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 100px;
+}
+#headingName:hover{
+  text-shadow: 1px 1px black;
+}
+#menu{
+  display: flex;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 23px;
+  /* margin-left: 250px; */
+}
+#menu a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  padding: 5px;
+  margin-left: 20px;
+  color: #424242;
+}
+#menu a:hover{
+  color: white;
+  background-color: rgb(183, 97, 97);
+  border-radius: 30px;
+}
+#threeLine{
+  font-size: 34px;
+  /* margin-right: 50px; */
+  text-align: center;
+  align-items: center;
+  display: none;
+}
+#home{
+  /* width: 1511px; */
+  width:100vw;
+  height: 410px;
+  background:linear-gradient(to bottom,rgb(5, 44, 5),rgb(16, 107, 16),rgb(41, 119, 41),rgb(18, 143, 18),rgb(56, 183, 56));
+  display: flex;
+  justify-content: space-around;
+}
+#bannerText{
+  width: 400px;
+  /* background-color: red; */
+  /* text-align: center; */
+}
+#about{
+  /* width: 1380px; */
+  width:90vw;
+  height: 478px;
+ /* UI Properties */
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 3px #00000029;
+  border-radius: 20px;
+  /* border: 2px solid red; */
+  opacity: 1;
+  margin:auto;
+  margin-top: 50px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* flex-direction: column; */
+  justify-content: space-around;
+}
+/* #aboutMe{
+   /* width: 500px; */
+   /* background-color: blue; */
+/*} */
+#aboutMeHeading{
+  font-size: 30px;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  border-bottom: 6px solid #FCA738;
+}
+.aboutText{
+  font-size: 20px;
+}
+#aboutPic{
+  margin-left: 30px;
+}
+#aboutPic img{
+  width: 400px;
+}
+#languagePic{
+  height: 104px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 3px #00000029;
+  border-radius: 20px;
+}
+#langText{
+  padding-top: 10px;
+  padding-left: 17px;
+  font-size: 19px;
+}
+
+
+#portfolioHeading{
+  font-size: 30px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 180px;
+  border-bottom: 6px solid #FCA738;
+}
+
+
+
+#resumeHeading{
+  font-size: 30px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 130px;
+  border-bottom: 6px solid #FCA738;
+}
+
+
+
+#peopleSayHeading{
+  font-size: 30px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 380px;
+  border-bottom: 6px solid #FCA738;
+}
+
+
+#contactHeading{
+  font-size: 30px;
+  /* display: inline-block; */
+  height: 50px;
+  width: 180px;
+  border-bottom: 6px solid #FCA738;
+}
+
+#project{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#project img{
+  margin-top: 17px;
+
+}
+#project img:hover{
+  box-shadow: 0px 3px 16px 7px #00000029;
+}
+#resumeAll{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  height: 400px;
+  /* width: 1400px; */
+  width: 90vw;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 3px #00000029;
+  border-radius: 20px;
+}
+#resumeText{
+  width: 400px; 
+  height: 400px;
+  margin-left: 10px;
+  /* background-color: red; */
+}
+#workExp{
+  height: 32px;
+  border-bottom:2px solid rgb(130, 127, 127);
+  font-size: 25px;
+  /* margin-left: 30px; */
+}
+#circle{
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: black;
+}
+#line{
+  display: inline-block;
+  height: 50px;
+  width: 1px;
+  background-color: black;
+  position: relative;
+  left: 4px;
+  top: -7px;
+}
+/* #resumePic{
+  /* width: 400px;  */
+  /* height: 400px; */
+  /* background-color: blue; */
+/*}*/ 
+
+#peopleSayAll{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* width: 1380px; */
+  width: 90vw;
+  height: 419px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 3px #00000029;
+  border-radius: 20px 20px 0px 0px;
+  margin: auto;
+  /* align-items: center; */
+}
+.peopleDiv{
+  width: 30%;
+  padding-top: 40px; /* background-color: rebeccapurple; */
+  text-align: center;
+}
+.name{
+  font-size: 19px;
+}
+.sayText{
+  margin-left: 50px; 
+  margin-right: 50px; 
+  font-size: 17px;
+}
+#viewmore{
+  /* width: 1380px; */
+  width: 90vw;
+  height: 48px;
+  background: #f4cd9b;
+  box-shadow: 0px 3px 6px 3px #00000029;
+  margin: auto;
+  border-radius: 0px 0px 20px 20px;
+  text-align: center;
+}
+#contactAll{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  /* width: 1380px; */
+  width: 90vw;
+  height: 478px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px 3px #00000029;
+  border-radius: 20px;
+  margin: auto;
+ /* align-items: center; */
+}
+.contactClass{
+  width: 50%;
+  /* text-align: center; */
+}
+.contactClass img{
+  margin-left: 100px;
+}
+#connect{
+  font-size: 25px; 
+  color: #105652;
+   margin-left: 100px; 
+   font-weight: bold;
+   padding-top: 30px
+}
+#connectMsg{
+  margin-left: 100px;
+   font-size: 19px;
+}
+#message{
+  background-color:#f4cd9b ;
+}
+#message button{
+  margin-left: 100px;
+   width: 150px; 
+   color: white;
+    background-color: #FCA738; 
+    border: 2px solid #FCA738; 
+    padding: 5px; 
+    border-radius: 10px;
+}
+label{
+  margin-left: 100px;
+}
+input, textarea{
+  margin-left: 100px;
+  height: 20px;
+  margin-top: 5px;
+  width: 300px;
+}
+
+footer {
+  color: #333333;
+  background-color: #f0e4ce;
+  font-size: 21px;
+  text-align: center;
+  padding: 25px;
+  margin-top: 110px;
+}
+
+.aboutClass{
+  flex-direction: column;
+}
+/* #threeLine{
+  display: block;
+  margin-right: 50px;
+} */
+
+
+@media screen and (max-width:1030px) and (min-width:972px) {
+  #about{
+    height: 550px;
+    width: 91vw;
+  }
+
+}
+
+@media screen and (max-width:972px) and (min-width:587px) {
+  #about{
+    height: 933px;
+    width: 91vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutClass{
+    margin: auto;
+    text-align: center;
+  }
+  #aboutPic{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  #resumeAll{
+    height: 800px;
+  }
+  /* #resumeText{width: 771px;} */
+  /* #resumeHeading{margin-left: 76vw;} */
+  .sayText{
+    font-size: 13px;
+  }
+  /* #peopleSayHeading{ margin-left: 50vw;} */
+  #home{
+    flex-direction: column;
+    height: 700px;
+  }
+  #menu{
+    display: none;
+  }
+  #bannerText{
+    margin: auto;
+  }
+  input,textarea{
+    width: 200px;
+  }
+  #contactHeading{
+    margin-left: 70vw;
+  }
+  #contactAll{
+    flex-direction: column;
+    height: 745px;
+    align-items: center;
+  }
+  #contactHeading{
+    margin:20px auto;
+    
+  }
+
+  #contactText{
+    width: 90vw;
+    /* text-align: center; */
+  }
+  #message{
+    width: 90vw;
+    /* text-align: center; */
+  }
+  #message button{
+    margin-bottom: 20px;
+  }
+  #contactAddress{
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #threeLine{
+    display: block;
+    margin-right: 50px;
+    color: #105652;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  #threeLine:hover{
+    background-color: #dad4d4;
+  }
+  #media-menu{
+    position: fixed;
+    top: 1%;
+    right: 0px;
+    /* display: block; */
+  }
+
+}
+
+@media screen and (max-width:685px) and (min-width:300px) {
+  #about{
+    height: 759px;
+    width: 91vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutClass{
+    margin: auto;
+    text-align: center;
+  }
+  #aboutPic{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+  }
+  #aboutPic img{
+    width: 200px;
+  }
+  .aboutText{
+    font-size: 25px;
+  }
+  #resumeAll{
+    height: 800px;
+  }
+  .sayText{
+    font-size: 10px;
+  }
+  #home{
+    flex-direction: column;
+    height: 700px;
+  }
+  #menu{
+    display: none;
+  }
+  #bannerText{
+    margin: auto;
+  }
+  input,textarea{
+    width: 200px;
+  }
+  #contactAll{
+    flex-direction: column;
+    height: 778px;
+    align-items: center;
+  }
+  #contactText{
+    width: 90vw;
+    /* text-align: center; */
+  }
+  #message{
+    width: 189vw;
+    /* text-align: center; */
+  }
+  #message button{
+    margin-bottom: 20px;
+  }
+  #contactAddress{
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #threeLine{
+    display: block;
+    margin-right: 50px;
+    color: #105652;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  #threeLine:hover{
+    background-color: #dad4d4;
+  }
+   .company{
+    font-size: 11px;
+   }
+   .name{
+    font-size: 16px;
+   }
+   .topHeadingBar{
+    width: 189vw;
+  }
+  #home{
+    width: 189vw;
+  }
+  #about{
+    width: 189vw;
+  }
+  #resumeAll{
+    width: 189vw;
+  }
+  #project{
+    width: 189vw;
+  }
+  #peopleSayAll{
+    width: 189vw;
+  }
+  #contactAll{
+    width: 189vw;
+  }
+  #viewmore{
+    width: 189vw;
+  }
+  #resumeText{width: 823px;}
+  #media-menu{
+    position: fixed;
+    top: 1%;
+    right: 0px;
+    display: block;
+  }
+  footer{
+    width: 181vw;
+  }
+  #portfolioHeading,#resumeHeading,#contactHeading{
+    margin-left: 80vw;
+  }
+}
+
+#media-menu{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  /* position: fixed;
+    top: 2%;
+    left: 50%; */
+    display: none;
+  z-index: 3;
+}
+#media-menu a{
+  text-decoration: none;
+}
